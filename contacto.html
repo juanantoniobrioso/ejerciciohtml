@@ -9,34 +9,45 @@
     <body>
         <header>
             <h1>Contacto</h1>
-            <nav></nav>
+            <nav>
+                <!--Lista de páginas para navegar por ellas-->
+                <a href="index.html">Inicio</a><br>
+                <a href="proyectos.html">Proyectos</a><br>
+                <a href="contacto.html">Contacto</a><br>
+            </nav>
         </header>
         <main>
             <form>
                 <ul>
                     <li>
+                        <!--Campo de texto para escribir el nombre-->
                         <label for="nombre">Nombre</label><br>
-                        <input type="text"/><br>
+                        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre..." required><br>
                     </li>
                     <li>
+                        <!--Campo de texto para escribir el correo electrónico-->
                         <label for="email">Email</label><br>
-                        <input type="email"/><br>
+                        <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico..." required><br>
                     </li>
                     <li>
+                        <!--Campo de texto para escribir el asunto del mensaje-->
                         <label for="asunto">Asunto</label><br>
-                        <input type="text"/><br>
+                        <input type="text" id="asunto" name="asunto" placeholder="Escribe el asunto del mensaje..." required><br>
                     </li>
                     <li>
+                        <!--Campo de texto para escribir el mensaje-->
                         <label for="mensaje">Mensaje</label><br>
-                        <textarea></textarea>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje..."></textarea><br>
+                        <!--Botón para enviar los datos insertados al formulario-->
+                        <button type="submit">Enviar</button>
                     </li>
-                    <label for="boton"></label><br>
-                    <button type="submit">Enviar</button><br>
                 </ul>
             </form>
         </main>
         <footer>
-            &copy; Copyright - Derechos Reservados
+            <!--Aviso de copyright-->
+            &copy; Copyright 2025 - Derechos Reservados
         </footer>
     </body>
 </html>
+<!--Validado por W3Schools y no tiene errores-->
